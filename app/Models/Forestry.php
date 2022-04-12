@@ -12,11 +12,6 @@ class Forestry extends Model
     public $timestamps = false;
 
 
-    public function region()
-    {
-        return $this->hasOne( Region::class );
-    }
-
     public function treespecie()
     {
         return $this->belongsToMany( TreeSpecie::class );

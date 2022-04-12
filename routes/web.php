@@ -18,6 +18,6 @@ use App\Http\Controllers\ForestryController;
 //     return view('welcome');
 // });
 
-Route::get("/forestry", [ ForestryController::class, "listForestry"]);
+Route::get("/forestry-region", [ ForestryController::class, "listForestryRegion"]);
 Route::get("/species", [ ForestryController::class, "listTreeSpecie"]);
-Route::get("/forestries", [ ForestryController::class, "listForestries"]);
+Route::get("/forestry-specie", [ ForestryController::class, "listForestrySpecie"]);
